@@ -18,7 +18,7 @@ public class Main {
             System.out.println("0 : Aurevoir !!");
            System.out.print("Faite un Choix : " );
             choix = sc.nextInt();
-        }while (choix < 0 || choix > 6); // Tant que
+        }while (choix < 0 || choix > 7); // Tant que
 
             // Selon la avaleur de ma Variable choix
             switch (choix) {
@@ -113,7 +113,7 @@ public class Main {
                     largeur = sc.nextInt();
 
                     result = (largeur + longueur)*2;
-                    System.out.println("Le périmètre du rectangle est : " + result );
+                    System.out.println("Le périmètre du rectangle est : " + result + "cm");
                     break;
 
             }
